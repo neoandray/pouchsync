@@ -1,0 +1,91 @@
+{
+"Navbar": {
+          "navbarClass": "main-header navbar navbar-expand navbar-white navbar-light"
+          ,"navLinks": [{"name": "Home", "href":"index3.html"} ,{"name":"Contact", "href":"#"}]
+          ,"MediaDropdownItemList":{ 
+                "navListClassName":"nav-item dropdown"
+                ,"navIconClassName":"far fa-comments"
+                ,"bagdeClassName":"badge badge-danger navbar-badge"
+                ,"bagdeValue":3
+                ,"dropdownListClassName":"dropdown-menu dropdown-menu-lg dropdown-menu-right"
+                ,"footerText":"See All Messages"
+                , "mediaDropdownItems":   [
+                {
+                "href"  :"#"
+                ,"dropdownItemclass": "dropdown-item"
+                ,"image": "dist/img/user1-128x128.jpg"
+                ,"imageClass":  "img-size-50 mr-3 img-circle"
+                ,"mainText":"Brad Diesel"
+                ,"subText":"Call me whenever you can..."
+                ,"iconSpanClass":"float-right text-sm text-danger"
+                ,"bodyIconClass":"fas fa-star"
+                ,"footerIconClass ":"far fa-clock mr-1"
+                ,"footerText": "4 Hours Ago"
+                }
+                ,{
+                    "href"  :"#"
+                ,"dropdownItemclass": "dropdown-item"
+                ,"image": "dist/img/user8-128x128.jpg"
+                ,"imageClass":  "img-size-50 mr-3 img-circle mr-3"
+                ,"mainText":" John Pierce"
+                ,"subText":"I got your message bro"
+                ,"iconSpanClass":"float-right text-sm text-muted"
+                ,"bodyIconClass":"fas fa-star"
+                ,"footerIconClass ":"far fa-clock mr-1"
+                ,"footerText": "4 Hours Ago"
+                }
+                ,  {
+                    "href"  :"#"
+                ,"dropdownItemclass": "dropdown-item"
+                ,"image": "dist/img/user3-128x128.jpg"
+                ,"imageClass":  "img-size-50 mr-3 img-circle mr-3"
+                ,"mainText":"Nora Silvester"
+                ,"subText":"The subject goes here"
+                ,"iconSpanClass":"float-right text-sm text-warning"
+                ,"bodyIconClass":"fas fa-star"
+                ,"footerIconClass ":"far fa-clock mr-1"
+                ,"footerText": "4 Hours Ago"
+                }
+                ]
+            }
+         ,"NavDropdownItemList":{
+             "dropdownItemClass":"nav-item dropdown"
+            ,"href":"#"
+            ,"iconClass":"far fa-bell"
+            ,"spanClass":"badge badge-warning navbar-badge"
+            ,"spanText":15
+            ,"dropdownMenuClass":"dropdown-menu dropdown-menu-lg dropdown-menu-right"
+            ,"dropdownHeaderClass":"dropdown-item dropdown-header"
+            ,"dropdownHeaderText":"Notifications"
+            ,"footerText":"See All Messages"
+            ,"navDropdownItems":[
+              {
+                "href":"#"
+               ,  "dropdownItemclass":"dropdown-item"
+               ,  "iconClass":"fas fa-envelope mr-2"
+               ,  "mainText":"4 new messages" 
+               ,  "rightSpanClass":"float-right text-muted text-sm" 
+               ,  "rightSpanText":"3 mins"
+               },{
+                   "href":"#"
+               ,  "dropdownItemclass":"dropdown-item"
+               ,  "iconClass":"fas fa-users mr-2"
+               ,  "mainText":"8 friend requests" 
+               ,  "rightSpanClass":"float-right text-muted text-sm" 
+               ,  "rightSpanText":"12 hours"
+               },{
+                   "href":"#"
+               ,  "dropdownItemclass":"dropdown-item"
+               ,  "iconClass":"fas fa-file mr-2"
+               ,  "mainText":"3 new reports" 
+               ,  "rightSpanClass":"float-right text-muted text-sm" 
+               ,  "rightSpanText":"2 days"
+               }
+               
+
+
+         ]
+        }
+        }
+
+}
